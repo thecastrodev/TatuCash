@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.elementsFormation {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.titlesPage {
+
+}
+
+.buttonsPage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px 0px;
+}
+
+.buttonsPage {
+    width: 100%;
+}
+
+.buttonFormation {
+    width: 80%;
+}
