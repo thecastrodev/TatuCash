@@ -1,0 +1,76 @@
+/* Estilos para o componente Banner */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Ajuste a altura conforme necessário */
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 1; /* Garante que o banner esteja atrás do header */
+  }
+  
+  .banner-image {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1160px; /* Ajuste o tamanho do quadrado conforme necessário */
+    height: 440px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px 100px;
+  }
+  
+  .text-container {
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .title {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #5000E0;
+  }
+  
+  .description {
+    font-size: 25px;
+    color: #363524;
+  }
+  
+  .image-word-container {
+    position: relative;
+    width: 23%; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 10%; /* Ajuste o tamanho da imagem conforme necessário */
+    padding: 10px 350px;
+  }
+  
+  .icon-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+  }
+  
