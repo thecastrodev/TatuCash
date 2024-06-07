@@ -7,11 +7,7 @@
   text-align: center;
   background-color: #fff;
 }
-  
-  .mission-description {
-    margin: 0 auto;
-    max-width: 500px;
-  }
+ 
   .icon-saiba{
     width: 150px;
     height: auto;
@@ -26,6 +22,8 @@
   }
 
   p{
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 600px;
   }
   
