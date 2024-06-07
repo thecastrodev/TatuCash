@@ -1,7 +1,7 @@
-import facebookIcon from "../../assets/tatucoin.png"; // Importe a imagem do ícone do Facebook
-import youtubeIcon from "../../assets/tatucoin.png"; // Importe a imagem do ícone do YouTube
-import instagramIcon from "../../assets/tatucoin.png"; // Importe a imagem do ícone do Instagram
-import logo from "../../assets/user_icon.png"
+import instagramIcon from "../../assets/home/instagram.svg"; // Importe a imagem do ícone do Facebook
+import youtubeIcon from "../../assets/home/youtube.svg"; // Importe a imagem do ícone do YouTube
+import facebookIcon from "../../assets/home/facebook.svg"; // Importe a imagem do ícone do Instagram
+import logo from "../../assets/Logo/Logo_Tatucash_.svg"
 import './Rodape.css'
 
 const Rodape = () => {
@@ -12,13 +12,13 @@ const Rodape = () => {
           <img src={logo} alt="Logo" />
         </div>
         <div className="frases">
-          <p>Primeira frase do rodapé</p>
-          <p>Segunda frase do rodapé</p>
+          <p>2024 Tatucash Soluções Financeiras LTDA</p>
+          <p>Todos os direitos reservados</p>
         </div>
         <div className="redes-sociais">
-          <img src={facebookIcon} alt="Facebook" />
-          <img src={youtubeIcon} alt="YouTube" />
-          <img src={instagramIcon} alt="Instagram" />
+        <img src={instagramIcon} alt="Instagram"/>
+        <img src={youtubeIcon} alt="YouTube" />
+        <div className="facebook"><img src={facebookIcon} alt="Facebook" /></div>
         </div>
       </div>
     </footer>
