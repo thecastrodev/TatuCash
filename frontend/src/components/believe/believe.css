@@ -1,0 +1,16 @@
+.mission-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    justify-content: center; /* Centraliza os itens no contêiner */
+    justify-items: center;  /* Centraliza os itens dentro das colunas */
+}
+
+/* Media query for larger screens */
+@media (min-width: 1024px) {
+    .mission-section {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        justify-content: center; /* Certifica-se de que o conteúdo está centralizado */
+    }
+}
