@@ -1,0 +1,27 @@
+.mission-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff; /* Cor de fundo leve para destacar a seção */
+    margin-bottom: 100px;
+  }
+  
+  .mission-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #5000E0;
+  }
+  
+  .mission-description {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #363524;
+    justify-content: center;
+    max-width: 500px;
+  }
+  .icon-saiba{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
