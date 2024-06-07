@@ -5,8 +5,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s;
-    width: 100%;  /* Certifica-se de que o card usa todo o espaço da coluna */
-    max-width: 280px; /* Limita a largura máxima do card */
+    width: 100%;
+    max-width: 280px; 
 }
 
 .believe-section:hover {
