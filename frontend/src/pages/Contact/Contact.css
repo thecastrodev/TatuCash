@@ -1,22 +1,3 @@
-.contact-container {
-  text-align: center;
-  padding: 20px;
-  color: #363524;
-  margin-top: 100px;
-}
-
-.contact-title {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #5000E0;
-  font-family: 'Press Start 2P', sans-serif;
-}
-
-.contact-description {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
 .contact-images {
   margin-top: 50px;  
   display: flex;
