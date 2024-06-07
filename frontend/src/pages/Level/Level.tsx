@@ -31,11 +31,9 @@ const Level: React.FC = () => {
 
   return (
     <div className="nivel-container" ref={containerRef}>
-      <h2 className="nivel-title">Descubra o seu potencial</h2>
-      <p className="nivel-description">Adquira níveis de conhecimento com nossos conteúdos e desfrute da educação financeira conquistando novas habilidades ao longo da sua jornada!</p>
       <div className="nivel-items">
         <div className="nivel-item">
-        <label className="nivel-label"><h3>Tatu Bebê</h3></label>
+        <label className="nivel-label"><h4>Tatu Bebê</h4></label>
           <div className="nivel-image-container">
             <img src={image1} alt="Imagem 1" className="nivel-image" />
             <div className="nivel-overlay">
@@ -44,7 +42,7 @@ const Level: React.FC = () => {
           </div>
         </div>
         <div className="nivel-item">
-        <label className="nivel-label"><h3>Tatu Jovem</h3></label>
+        <label className="nivel-label"><h4>Tatu Jovem</h4></label>
           <div className="nivel-image-container">
             <img src={image2} alt="Imagem 2" className="nivel-image" />
             <div className="nivel-overlay">
@@ -53,7 +51,7 @@ const Level: React.FC = () => {
           </div>
         </div>
         <div className="nivel-item">
-        <label className="nivel-label"><h3>Tatu Adulto</h3></label>
+        <label className="nivel-label"><h4>Tatu Adulto</h4></label>
           <div className="nivel-image-container">
             <img src={image3} alt="Imagem 3" className="nivel-image" />
             <div className="nivel-overlay">

@@ -8,7 +8,7 @@
     overflow: hidden;
     z-index: 1; /* Garante que o banner esteja atrás do header */
   }
-  
+
   .banner-image {
     max-width: 100%;
     width: 100%;
