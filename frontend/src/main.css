@@ -25,6 +25,7 @@
 
 body{
   font-family: var(--fonte-primaria);
+  color: var(--titulo1);
 }
 
 

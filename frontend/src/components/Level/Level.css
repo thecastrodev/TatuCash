@@ -11,18 +11,18 @@
   }
   .nivel-image-container {
     position: relative;
-    width: 300px; /* Ajuste o tamanho das imagens conforme necessário */
+    width: 300px; 
     height: auto;
-    opacity: 0; /* Inicialmente invisível */
-  transform: translateY(20px); /* Inicialmente movido para baixo */
-  transition: opacity 1s ease, transform 1s ease; /* Suaviza a transição */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
   }
   .nivel-image-container.visible {
-    opacity: 1; /* Visível */
-    transform: translateY(0); /* Posição normal */
+    opacity: 1;
+    transform: translateY(0);
   }
   .nivel-image {
-    width: 100%; /* Ajuste o tamanho das imagens conforme necessário */
+    width: 100%;
     height: auto;
   }
   .nivel-overlay {
@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    background: rgba(0, 0, 0, 0.7);
     color: #ffff;
     opacity: 0;
     transition: opacity 0.5s ease;
@@ -57,4 +57,5 @@
     font-size: 18px;
     padding: 10px 35px;
     text-align: justify;
+    color: white;
   }
