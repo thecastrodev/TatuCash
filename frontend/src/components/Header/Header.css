@@ -6,8 +6,7 @@
     max-height: 70px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
-    background-color: #fff;
+    background: transparent;
     color: #000;
   }
   

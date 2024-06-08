@@ -1,11 +1,9 @@
 .home-container{
   display: flex;
-  padding: 0px 140px 100px 140px;
+  padding: 50px 140px;
   gap: 100px;
   flex-direction: column;
-  color: #363524;
   text-align: center;
-  background-color: #fff;
 }
  
   .icon-saiba{
@@ -25,5 +23,6 @@
     font-size: 18px;
     margin: 0 auto;
     max-width: 600px;
+    color: #363524;
   }
   

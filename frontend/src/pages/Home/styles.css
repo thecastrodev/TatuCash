@@ -8,6 +8,13 @@
 html,body {
   margin: 0;
   padding: 0;
+  background-color: #fff;
+}
+
+body{
+  background-image: url('../../assets/home/full_banner.svg');
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .logo {
