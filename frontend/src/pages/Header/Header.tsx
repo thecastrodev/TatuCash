@@ -16,7 +16,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="image-container">
-        <a href="#profile" className="profile-link">Nome</a>
+        <a href="#profile" className="profile-link">Hidalgo</a>
         <img src={userImage} alt="User" className="user-image" />
       </div>
     </header>
