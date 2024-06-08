@@ -1,0 +1,27 @@
+.home-container{
+  display: flex;
+  padding: 50px 140px;
+  gap: 100px;
+  flex-direction: column;
+  text-align: center;
+}
+ 
+  .icon-saiba{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--titulo1);
+  }
+
+  p{
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 600px;
+    color: #363524;
+  }
+  
