@@ -3,14 +3,10 @@ import iconSaiba from '../../assets/home/saiba_mais.svg';
 import './Mission.css';
 import Level from "../Level/Level";
 import Contact from "../Contact/Contact"
-import Banner from '../Banner/Banner';
-import Header from '../Header/Header';
 
 const Mission: React.FC = () => {
   return (
     <section className='home-container'>
-      <Header/>
-      <Banner />
       <div className="mission-container">
         <h3 className="mission-title">Nossa Missão</h3>
         <p className="mission-description">

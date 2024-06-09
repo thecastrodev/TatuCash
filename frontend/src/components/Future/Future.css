@@ -1,0 +1,32 @@
+.image-label-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px;
+    flex-direction: row;
+  }
+  
+  .image{
+    max-width: 300px;
+  }
+
+  .label-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 25px; /* Ajuste conforme necessário */
+    margin-block: 20px; /* Espaçamento entre o texto e o ícone */
+    color: var(--titulo1);
+    width: 500px;
+    line-height: 1.5em;
+  }
+  
+  .icon {
+    width: 30%; /* Ajuste conforme necessário */
+  }
+  
