@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+}
+
+.banner {
+    background-image: url("../../assets/formacoes/banner.png");
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+.pageFormation {
+    margin: 0px 5%;
+    margin-top: 26%;
+    margin-bottom: 30%;
+}
+
+.elementsFormation {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.titleFormations {
+    font-size: x-large;
+    color: #5000E0;
+    font-family: 'Press Start 2P', sans-serif;
+    margin-bottom: 10px;
+}
+
+.subtitleFormations {
+    font-size: large;
+}
+
+.buttonsPage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px 0px;
+}
+
+.buttonsPage {
+    width: 100%;
+}
+
+.buttonFormation {
+    width: 80%;
+}
