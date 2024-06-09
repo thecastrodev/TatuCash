@@ -1,0 +1,35 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5%;
+}
+
+.about-container h2{
+    color: var(--titulo1);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .about-container  h2 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .about-container{
+        padding: 10%;
+    }
+
+    .about-container  h2 {
+        font-size: 28px;
+    }
+
+}
+
+
+

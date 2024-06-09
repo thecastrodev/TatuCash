@@ -1,19 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Home } from "./pages/Home";
+import About from "./components/about";
 import "./main.css";
-import { Formations } from "./components/formations/Formations";
-import { Level1 } from "./components/levels/level1/Level1";
-import { ContentLevel } from "./components/contentLevels/ContentLevel";
-
-
-
+import Header from "./components/Header/Header";
+import Rodape from "./components/Footer/Rodape";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    {/* <Home />   */}
-    {/* <Formations /> */}
-    <Level1 />
-    {/* <ContentLevel /> */}
+    <Header />
+    <About />
+    <Rodape />
   </React.StrictMode>
 );

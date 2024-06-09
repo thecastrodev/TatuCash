@@ -1,0 +1,15 @@
+.mission-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media (min-width: 1024px) {
+    .mission-section {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        justify-content: center;
+    }
+}

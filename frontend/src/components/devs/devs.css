@@ -1,0 +1,22 @@
+.cards-section:hover {
+    transform: scale(1.05);
+}
+
+.cards-section {
+    text-align: center;
+}
+
+
+.cards-section img{
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .cards-section img {
+        width: 100%;
+    }
+    
+}
+
+
+
