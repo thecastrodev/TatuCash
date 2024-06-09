@@ -4,7 +4,7 @@ import imgLvl1 from '../../assets/formacoes/Nivel 1.svg'
 import imgLvl2 from '../../assets/formacoes/Nivel 2.svg'
 import imgLvl3 from '../../assets/formacoes/Nivel 3.svg'
 import Header from '../../pages/Header/Header'
-import Rodape from '../../pages/Footer/Rodape'
+import Rodape from '../Footer/Rodape'
 
 export const Formations = () => {
     return (

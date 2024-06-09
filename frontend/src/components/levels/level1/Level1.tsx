@@ -14,7 +14,11 @@ export const Level1 = () => {
                     <div className='textLevel'>
                         <h2 className='titleLevel'>Formação Nível 1</h2>
                         <p className='descriptionLevel'>Nesta formação, você vai se deparar com os conceitos e fundamentos de educação financeira, abordando desde eventos históricos até a solidificação do que conhecemos hoje como economia. A cada módulo, você terá a oportunidade de assistir vídeos e ler artigos sobre cada temática. Inicie seus estudos com o pé direito!</p>
+
                     </div>
+                </div>
+                <div className='quizButton'>
+
                 </div>
             </section>
             <Rodape />
