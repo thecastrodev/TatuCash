@@ -5,6 +5,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import slide1 from '../../assets/home/full_banner.svg';
 import slide2 from '../../assets/home/full_banner.svg';
 import slide3 from '../../assets/home/full_banner.svg';
+import previous from '../../assets/home/anterior.png';
+import next from '../../assets/home/next.png'
 import './Banner.css';
 
 import Header from '../Header/Header';
@@ -57,13 +59,13 @@ const Banner: React.FC = () => {
           onClick={() => sliderRef.current?.slickPrev()}
           disabled={currentSlide === 0}
         >
-          Anterior
+          <img src={previous} alt="Slide anterior" />
         </button>
         <button
           onClick={() => sliderRef.current?.slickNext()}
           disabled={currentSlide === productSlideImg.length - 1}
         >
-          Próximo
+          <img src={next} alt="Próximo slide" />
         </button>
       </div>
       </div>

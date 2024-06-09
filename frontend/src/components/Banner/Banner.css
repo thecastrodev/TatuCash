@@ -91,5 +91,8 @@ html, body {
 .custom-arrows button:disabled {
   background: transparent;
   cursor: not-allowed;
-  color: transparent;
+}
+
+.custom-arrows button:disabled img {
+  display: none;
 }
