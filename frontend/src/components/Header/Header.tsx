@@ -1,26 +1,34 @@
+import React, { useState } from 'react';
 import './Header.css';
-import logo from "../../assets/tatucoin.png"; // Adjust the path as necessary
-import userImage from "../../assets/user_icon.png"; // Adjust the path as necessary
+import logo from '../../assets/tatucoin.png';
 
-const Header = () => {
+const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
+      <div className="menu-toggle" onClick={toggleMenu}>
+        <span className="hamburger"></span>
+        <span className="hamburger"></span>
+        <span className="hamburger"></span>
+      </div>
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
       </div>
-      <nav className="nav">
+      <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><a href="#inicio">Início</a></li>
+          <li><a href="#inicio">Home</a></li>
           <li><a href="#estudar">Estudar</a></li>
-          <li><a href="#jogar">Jogar</a></li>
+          <li><a href="#jogar">Sobre nós</a></li>
         </ul>
       </nav>
-      <div className="image-container">
-        <a href="#profile" className="profile-link">Nome</a>
-        <img src={userImage} alt="User" className="user-image" />
-      </div>
     </header>
   );
 }
 
 export default Header;
+

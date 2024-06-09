@@ -1,11 +1,11 @@
-import './mission.css';
+import './missioncards.css';
 
 interface DevsProps {
     title: string;
     description: string;
 }
 
-const Mission: React.FC<DevsProps> = ({ title, description }) => {
+const Missioncards: React.FC<DevsProps> = ({ title, description }) => {
     return (
         <div className='believe-section'>
             <h3 className='title-mission'>{title}</h3>
@@ -16,4 +16,4 @@ const Mission: React.FC<DevsProps> = ({ title, description }) => {
     );
 }
 
-export default Mission;
+export default Missioncards;

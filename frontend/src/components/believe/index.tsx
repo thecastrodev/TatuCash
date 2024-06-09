@@ -1,5 +1,5 @@
 import './believe.css'
-import Mission from '../mission'
+import Missioncards from '../missioncards'
 
 const MissionData = [
     {title: 'Missão', description: 'Facilitar o aprendizado em finanças pessoais e propagar a educação financeira para as pessoas de diferentes classes econômicas e sociais.'},
@@ -11,8 +11,8 @@ const Believe = () => {
     return (
         <div>
             <div className='mission-section'>
-                {MissionData.map((mission, index) => (
-                    <Mission key={index} title={mission.title} description={mission.description} />
+                {MissionData.map((missioncard, index) => (
+                    <Missioncards key={index} title={missioncard.title} description={missioncard.description} />
                 ))}
 
             </div>

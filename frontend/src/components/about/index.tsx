@@ -3,6 +3,7 @@ import './about.css';
 import Believe from '../believe';
 import Cards from '../cards';
 import TextSection from '../textSection';
+import Mascot from '../mascot';
 
 const aboutParagraphs = [
     "O negócio surgiu a partir da junção de cinco colegas do curso de Engenharia de Computação, participantes de um Bootcamp intitulado Mandacarú.Dev, em um módulo focado em Gestão ágil e inovação. Desenvolveremos uma plataforma web, que foca no aprendizado interativo do usuário, por meio de atividades com quiz e vídeos educativos, sobre educação financeira, tendo como ponto forte a identidade visual e design de nossos serviços, com foco em Pixel Art."
@@ -43,12 +44,8 @@ const About: React.FC = () => {
 
         <div className='mascote'>
             <h2>Mascote</h2>
-            <div>
+            <Mascot />
 
-            </div>
-            <div>
-                
-            </div>
         </div>
 
         </section>
