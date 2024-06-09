@@ -7,7 +7,7 @@ export function Home() {
     <>
       <Banner/>
       <Mission />
-      <Rodape />
+      {/* <Rodape /> */}
     </>
   );
 }

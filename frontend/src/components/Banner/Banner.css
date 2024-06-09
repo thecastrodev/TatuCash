@@ -1,28 +1,31 @@
-html, body {
+/* html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Impede a rolagem horizontal */
+  overflow-x: hidden;
   width: 100%;
   height: 100%;
-}
+} */
 
 .slider-container {
   width: 100%;
   height: 100%; /* Definindo a altura como 100% da viewport */
   position: relative;
   padding-bottom: 5%;  
+  margin-top: -100px;
+  z-index: -1;
+  overflow-x: hidden;
 }
-.header {
+/* .header {
   position: absolute;
   display: flex;
   top: 0;
   width: 80%;
-  z-index: 5; /* Garante que o header fique acima do slider */
-  background-color: rgba(0, 0, 0, 0.5); /* Ajuste conforme necessário */
+  z-index: 5; 
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
-  padding: 25px; /* Ajuste conforme necessário */
-}
+  padding: 25px;
+} */
 
 .slick-slider,
 .slick-list,

@@ -34,7 +34,7 @@ const Banner: React.FC = () => {
 
   return (
       <div className="slider-container">
-      <Header />
+      {/* <Header /> */}
       <Slider ref={sliderRef} {...settings}>
         {productSlideImg.map((item, index) => (
           <div key={index} className="slider-content">

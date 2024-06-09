@@ -15,13 +15,13 @@ const Mission: React.FC = () => {
         <img src={iconSaiba} alt="Icon" className="icon-saiba" />
       </div>
       <div className='container-level'>
-        <h3>Descubra o seu potencial</h3>
-        <p>Adquira níveis de conhecimento com nossos conteúdos e desfrute da educação financeira conquistando novas habilidades ao longo da sua jornada!</p>
+        <h3 className ='level-title'>Descubra o seu potencial</h3>
+        <p className='level-paragraph'>Adquira níveis de conhecimento com nossos conteúdos e desfrute da educação financeira conquistando novas habilidades ao longo da sua jornada!</p>
         <Level />
       </div>
       <div className='container-contact'>
-        <h3>Tem alguma dúvida?</h3>
-        <p>Entre em contato conosco para mais informações.</p>
+        <h3 className ='level-title'>Tem alguma dúvida?</h3>
+        <p className='level-paragraph'>Entre em contato conosco para mais informações.</p>
         <Contact />
       </div>
       

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from '../../assets/tatucoin.png';
+import { Link } from 'react-router-dom';
+import { Home } from '../../pages/Home';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,9 +23,21 @@ const Header: React.FC = () => {
       </div>
       <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><a href="#inicio">Home</a></li>
-          <li><a href="#estudar">Estudar</a></li>
-          <li><a href="#jogar">Sobre nós</a></li>
+          <li>
+            <a href="#inicio">
+              <Link to={'/'}>Home</Link>
+            </a>
+          </li>
+          <li>
+            <a href="#estudar">
+              <Link to={'/formacao'}>Estudar</Link>
+            </a>
+          </li>
+          <li>
+            <a href="#jogar">
+              <Link to={'/sobre'}>Sobre nós</Link>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

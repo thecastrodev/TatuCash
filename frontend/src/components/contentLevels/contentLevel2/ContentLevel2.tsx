@@ -1,13 +1,11 @@
-import Header from "../../pages/Header/Header"
-import Rodape from "../Footer/Rodape"
+import { Link } from 'react-router-dom'
+import '../contentLevel.css'
 
-import './contentLevel.css'
-
-export const ContentLevel = () => {
+export const ContentLevel2 = () => {
     return(
-        <>
-            <Header />
+        <>           
             <section className="content">
+            <Link to={'/formacao'}>Voltar</Link>
                 <h2 className="contentTitle">Gertão Financeira</h2>
                 <h3 className="contentSubtitle">O que é orçamento</h3>
                 <p>O orçamento é um plano que ajuda a estimar despesas, ganhos e oportunidades de investimentos em um período determinado de tempo. Com um orçamento bem definido é possível estabelecer objetivos, que vão permitir que os resultados sejam acompanhados de perto e medidos.</p>
@@ -25,7 +23,6 @@ export const ContentLevel = () => {
 
                 </div>
             </section>
-            <Rodape />
         </>
     )
 }
