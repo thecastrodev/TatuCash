@@ -6,12 +6,14 @@
   
   .nivel-item {
     position: relative;
-    max-width: 300px;
-    padding:50px;
+    max-width: 500px;
+    min-width: 200px;
+    width: 100%;
+    padding:20px;
   }
   .nivel-image-container {
     position: relative;
-    width: 300px; 
+    width: 100%; 
     height: auto;
     opacity: 0;
     transform: translateY(20px);
@@ -23,7 +25,8 @@
   }
   .nivel-image {
     width: 100%;
-    height: auto;
+    max-width: 100%;
+    height: auto; 
   }
   .nivel-overlay {
     position: absolute;
@@ -58,4 +61,74 @@
     padding: 10px 35px;
     text-align: justify;
     color: white;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+
+    .nivel-item-description {
+      font-size: 16px;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 1124px) {
+
+    .nivel-item-description {
+      font-size: 14px;
+    }
+    
+  }
+
+  @media screen and (max-width: 900px) {
+    .nivel-item-description{
+      font-size: 12px;
+    }
+    
+  }
+
+
+    
+
+  @media screen and (max-width: 800px) {
+
+    .nivel-image{
+      max-width: 300px;
+    }
+
+    .nivel-items {
+      flex-direction: column;
+      align-items: center; 
+    }
+
+    .nivel-label {
+      font-size: 14px;
+    }
+  
+    .nivel-item {
+      max-width: none; 
+      padding: 5px; 
+      margin-bottom: 0px; 
+    }
+  
+    .nivel-overlay {
+      position: static; 
+      background: none; 
+      color: #000; 
+      opacity: 1; 
+      transition: none; 
+      padding: 0; 
+      }
+  
+    .nivel-item-description {
+      color: var(--texto1); 
+      background: rgba(255, 255, 255, 0.8); 
+      margin-top: 10px; 
+      padding: 10px 0px;
+    }
+  
+
+
+
   }

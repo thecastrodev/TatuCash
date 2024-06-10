@@ -52,11 +52,6 @@ header {
   align-items: center;
 }
 
-.user-image {
-  height: 40px;
-  border-radius: 50%;
-}
-
 .nav-link:hover {
   color: #ccc;
 }
@@ -83,6 +78,16 @@ header {
 
 /* Responsivo */
 @media (max-width: 820px) {
+
+  header{
+    padding: 0;
+    margin: 20px 10px 0px 10px;
+  }
+
+  .logo{
+    height: 50px;
+  }
+
   .nav {
     display: none; 
     flex-direction: column;

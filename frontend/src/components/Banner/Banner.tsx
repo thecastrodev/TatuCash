@@ -1,19 +1,14 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import slide1 from '../../assets/home/full_banner.svg';
 import slide2 from '../../assets/home/banner_family.svg';
 import slide3 from '../../assets/home/banner_business.svg';
-import previous from '../../assets/home/anterior.png';
-import next from '../../assets/home/next.png'
 import './Banner.css';
-
-import Header from '../Header/Header';
 
 const Banner: React.FC = () => {
   const sliderRef = useRef<Slider>(null);
-  const [currentSlide, setCurrentSlide] = useState<number>(0);
 
   const productSlideImg = [
     { Img: slide1, ImgName: 'slide1', label: 'Quer ter educação financeira de forma dinâmica?', description: 'Oferecemos educação financeira de forma prática e dinâmica, priorizando seu aprendizado de forma lúdica e enriquecedora.', link: '../../pages/Future/index.tsx' },
@@ -28,49 +23,31 @@ const Banner: React.FC = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    afterChange: (index: number) => setCurrentSlide(index),
+    autoplaySpeed: 5000,
+    arrows: false, // Desabilitar as setas
   };
 
   return (
-      <div className="slider-container">
-      {/* <Header /> */}
+    <div className="slider-container">
       <Slider ref={sliderRef} {...settings}>
         {productSlideImg.map((item, index) => (
           <div key={index} className="slider-content">
             <a href={item.link} target="_blank" rel="noopener noreferrer">
-            <img
-              className="slider-image"
-              src={item.Img}
-              alt={`Slide ${index + 1}`}
-              onClick={() => {
-                setCurrentSlide(index);
-                console.log(`Image ${item.ImgName} clicked`);
-              }}
-            />
-            <div className="slider-overlay">
-              <h2 className="slider-label">{item.label}</h2>
-              <p className="slider-description">{item.description}</p>
-            </div>
-              </a>
+              <img
+                className="slider-image"
+                src={item.Img}
+                alt={`Slide ${index + 1}`}
+                onClick={() => console.log(`Image ${item.ImgName} clicked`)}
+              />
+              <div className="slider-overlay">
+                <h2 className="slider-label">{item.label}</h2>
+                <p className="slider-description">{item.description}</p>
+              </div>
+            </a>
           </div>
         ))}
       </Slider>
-      <div className="custom-arrows">
-        <button
-          onClick={() => sliderRef.current?.slickPrev()}
-          disabled={currentSlide === 0}
-        >
-          <img src={previous} alt="Slide anterior" />
-        </button>
-        <button
-          onClick={() => sliderRef.current?.slickNext()}
-          disabled={currentSlide === productSlideImg.length - 1}
-        >
-          <img src={next} alt="Próximo slide" />
-        </button>
-      </div>
-      </div>
+    </div>
   );
 };
 

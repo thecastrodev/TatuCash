@@ -37,7 +37,7 @@
    
    .redes-sociais img {
      width: 30px; /* Ajuste o tamanho conforme necessário */
-     margin-right: 20px; /* Espaçamento entre os ícones */
+     margin: 10px; /* Espaçamento entre os ícones */
    }
    
    .facebook img{
@@ -54,13 +54,21 @@
     }
     .redes-sociais{
       order: 2;
-
     }
+
+    .logo_rodape img {
+      width: 70px;
+     }
 
     .container{
       display: flex;
       flex-direction: column;
       gap:50px;
+      padding: 20px;
+    }
+
+    .frases p{
+      font-size: 12px;
     }
 
    }

@@ -14,3 +14,20 @@
   height: auto;
   align-content: center;
 }
+
+@media screen and (max-width: 650px) {
+  .contact-images{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .contact-image {
+    width: 80%;
+  }
+
+  .contact-images {
+    margin-top: 10px;  
+  }
+  
+}
