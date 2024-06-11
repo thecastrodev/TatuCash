@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+}
+
+.elementsLevel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 3%;
+    margin-bottom: 30%;
+    gap: 20px 0px;
+}
+
+@media (max-width: 768px) {
+    .elementsLevel {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgLevel {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.imgLevel {
+    width: 60%;
+    margin: auto;
+}
+
+.textLevel {
+    margin: auto;
+    display: grid;
+    gap: 15px;
+}
+
+.backButton {
+    width: 9%;
+    margin-left: 10%;
+}
+
+.backButton:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.titleLevel {
+    font-size: large;
+    color: #5000E0;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.descriptionLevel {
+    text-align: justify;
+    font-size: large;
+}
+
+.contentAndQuiz {
+    display: grid;
+    gap: 10px 0px;
+    margin: auto;
+}
+
+.formationsButton {
+    width: 330px;
+}
+
+.formationsButton:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.quizButton {
+    width: 330px;
+}
+
+.quizButton:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}

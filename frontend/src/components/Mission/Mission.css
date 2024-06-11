@@ -1,0 +1,80 @@
+.home-container {
+  display: flex;
+  padding: 50px 140px;
+  gap: 100px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon-saiba {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.level-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--titulo1);
+}
+
+.level-paragraph {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #363524;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .mission-title {
+    font-size: 17px;
+  }
+
+  .mission-description {
+    font-size: 16px;
+  }
+
+  .icon-saiba {
+    width: 100px;
+  }
+
+  .home-container {
+    padding: 20px;
+    gap: 50px;
+  }
+
+  .level-paragraph {
+    font-size: 15px;
+  }
+
+  .level-title {
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .mission-title {
+    font-size: 16px;
+  }
+
+  .mission-description {
+    font-size: 14px;
+  }
+
+  .icon-saiba {
+    width: 100px;
+  }
+
+  .level-paragraph {
+    font-size: 14px;
+  }
+
+  .level-title {
+    font-size: 18px;
+  }
+
+}

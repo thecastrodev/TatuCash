@@ -1,0 +1,74 @@
+   .rodape {
+    background: linear-gradient(to top, #B6AE1E, white);     
+    padding: 50px 0;
+   }
+   
+   .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center; 
+     max-width: 100%;
+     padding: 20px 100px;
+   }
+   
+   .logo_rodape {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+   }
+   
+   .logo_rodape img {
+    width: 100px;
+   }
+
+   .logo img {
+     width: 50%; 
+   }
+   
+   .frases {
+     text-align: center;
+   }
+   
+   .redes-sociais {
+     display: flex;
+     justify-content: center;
+   }
+   
+   .redes-sociais img {
+     width: 30px; 
+     margin: 10px; 
+   }
+   
+   .facebook img{
+    width: 35px;
+   }
+
+   @media screen and (max-width: 800px) {
+
+    .logo_rodape{
+      order: 1;
+    }
+    .frases{
+      order: 3;
+    }
+    .redes-sociais{
+      order: 2;
+    }
+
+    .logo_rodape img {
+      width: 70px;
+     }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap:50px;
+      padding: 20px;
+    }
+
+    .frases p{
+      font-size: 12px;
+    }
+
+   }

@@ -1,0 +1,133 @@
+.mascot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    gap: 20px;
+    padding: 20px;
+}
+
+.mascot-image-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: var(--padding-mascote);
+    padding: 50px 50px 0px 50px;
+    border: solid 1px var(--titulo1);
+    border-radius: 10px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.mascot-container h3{
+    color: var(--titulo1);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.mascot-image-container:hover{
+    transform: scale(1.05);
+}
+
+.img-tatuca {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.mascot-bio-container {
+    flex: 2;
+}
+
+.tagline-paragraph {
+        color: var(--padding-mascote);
+        font-size: 16px;
+        margin: 10% 0px;
+        text-align: center;
+        background-color: #7650BB;
+        padding: 10px;
+        border-radius: 20px;
+}
+
+.bio-paragraph{
+    color: var(--texto1);
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+.mascot-image-container h4{
+    font-size: 12px;
+    color: var(--titulo3);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    
+    .tagline-paragraph {
+        font-size: 18px;
+    }
+
+    .mascot-image-container h4{
+        font-size: 16px;
+    }
+
+    .mascot-container h3{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .img-tatuca {
+        min-width: 300px;
+    }
+    
+    .tagline-paragraph, .bio-paragraph{
+        font-size: 20px;
+    }
+
+    .mascot-image-container{
+        justify-content: space-around;
+    }
+
+    .mascot-container h3{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .mascot-container h3{
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .mascot-image-container h4{
+        font-size: 18px;
+    }
+
+    .img-tatuca {
+        margin-bottom: 50px;
+    }   
+}
+
+
+@media screen and (min-width: 1200px) {
+    .mascot-container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.contact-images {
+  margin-top: 50px;  
+  display: flex;
+  justify-content: center;
+}
+
+.contact-image-container {
+  max-width: 400px;
+  align-content: center;
+}
+
+.contact-image {
+  width: 100%;
+  height: auto;
+  align-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-images{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .contact-image {
+    width: 80%;
+  }
+
+  .contact-images {
+    margin-top: 10px;  
+  }
+  
+}

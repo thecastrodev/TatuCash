@@ -1,0 +1,27 @@
+.believe-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    width: 100%;
+    max-width: 280px; 
+}
+
+.believe-section:hover {
+    transform: scale(1.05);
+}
+
+.title-mission {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: var(--titulo2);
+}
+
+.description-mission {
+    font-size: 1em;
+    color: var(--texto1);
+}
+
+

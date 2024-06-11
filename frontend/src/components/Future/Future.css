@@ -1,0 +1,43 @@
+.image-label-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .image{
+    width: 50%;
+    min-width: 200px;
+    
+  }
+
+  .label-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 20px; 
+    margin-block: 20px; 
+    color: var(--titulo1);
+    line-height: 1.5em;
+  }
+  
+  .icon {
+    width: 100%; 
+  }
+  @media screen and (min-width:768px) {
+    .image-label-icon-container{
+      display: flex;
+      padding: 140px;
+      flex-direction: row;
+    }
+    .label {
+      font-size: 25px;
+      width: 500px;
+    }
+
+  }
