@@ -9,8 +9,8 @@ const Mission: React.FC = () => {
   return (
     <section className='home-container'>
       <div className="mission-container">
-        <h3 className="mission-title">Nossa Missão</h3>
-        <p className="mission-description">
+        <h3 className="level-title">Nossa Missão</h3>
+        <p className="level-paragraph">
         Facilitar o aprendizado em finanças pessoais e propagar a educação financeira para as pessoas de diferentes classes econômicas e sociais.
         </p>
         <Link to={'/sobre'}><img src={iconSaiba} alt="Icon" className="icon-saiba" /></Link>
