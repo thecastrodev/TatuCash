@@ -1,17 +1,29 @@
 import './formations.css'
 import banner from '../../assets/formacoes/banner.png'
-import imgLvl1 from '../../assets/formacoes/Nivel 1.svg'
-import imgLvl2 from '../../assets/formacoes/Nivel 2.svg'
-import imgLvl3 from '../../assets/formacoes/Nivel 3.svg'
+import imgLvl1 from '../../assets/formacoes/niveis/1.png'
+import imgLvl2 from '../../assets/formacoes/niveis/2.png'
+import imgLvl3 from '../../assets/formacoes/niveis/3.png'
 import { Link } from 'react-router-dom'
+import LevelHover from '../../assets/sound/HoverLevelFormation.mp3';
+import LevelClick from '../../assets/sound/ClickLevelFormation.mp3'
 
 export const Formations = () => {
+
+    const playLevelHover = (): void => {
+        const audio = new Audio(LevelHover);
+        audio.play();
+    };
+    const playLevelClick = (): void => {
+        const audio = new Audio(LevelClick);
+        audio.play();
+    };
+
     return (
         <>
-            <img src={banner} alt="" className='banner'/>
+            <img src={banner} alt="" className='banner' />
 
             <section className='pageFormation'>
-                
+
                 <div className='elementsFormation'>
                     <div className='titlesPage'>
                         <h2 className='titleFormations'>Formações</h2>
@@ -20,21 +32,27 @@ export const Formations = () => {
 
                     <div className='buttonsPage'>
                         <Link to={'/nivel1'}>
-                            <img src={imgLvl1} alt="" className='buttonFormation'/>
+                            <img src={imgLvl1} alt="" className='buttonFormation'
+                                onMouseEnter={playLevelHover}
+                                onClick={playLevelClick} />
                         </Link>
 
                         <Link to={'/nivel2'}>
-                            <img src={imgLvl2} alt=""  className='buttonFormation'/>
+                            <img src={imgLvl2} alt="" className='buttonFormation'
+                                onMouseEnter={playLevelHover}
+                                onClick={playLevelClick} />
                         </Link>
 
                         <Link to={'/nivel3'}>
-                            <img src={imgLvl3} alt=""  className='buttonFormation'/>
+                            <img src={imgLvl3} alt="" className='buttonFormation'
+                                onMouseEnter={playLevelHover}
+                                onClick={playLevelClick} />
                         </Link>
                     </div>
                 </div>
             </section>
 
-            
+
         </>
     )
 }

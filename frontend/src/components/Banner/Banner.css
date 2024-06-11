@@ -9,17 +9,6 @@
   z-index: 1;
   overflow-x: hidden;
 }
-/* .header {
-  position: absolute;
-  display: flex;
-  top: 0;
-  width: 80%;
-  z-index: 5; 
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  text-align: center;
-  padding: 25px;
-} */
 
 .slick-slider,
 .slick-list,
@@ -130,6 +119,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .slider-container .custom-arrows {
+    display: none;
+  }
 
   .slider-container{
     margin-top: 10px;

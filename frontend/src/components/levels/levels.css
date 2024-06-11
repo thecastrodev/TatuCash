@@ -16,20 +16,25 @@
 
 @media (max-width: 768px) {
     .elementsLevel {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
-
+    
     .imgLevel {
         display: flex;
         margin: auto;
-        
+        align-items: center;
+        justify-content: center;
     }
 }
 
 .imgLevel {
     width: 60%;
-    margin-left: 30px;
+    margin: auto;
 }
 
 .textLevel {
@@ -62,7 +67,7 @@
 .contentAndQuiz {
     display: grid;
     gap: 10px 0px;
-    margin-left: 40px;
+    margin: auto;
 }
 
 .formationsButton {

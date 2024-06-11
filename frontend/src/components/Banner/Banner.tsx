@@ -17,7 +17,7 @@ const Banner: React.FC = () => {
   const productSlideImg = [
     { Img: slide1, ImgName: 'slide1', label: 'Quer ter educação financeira de forma dinâmica?', description: 'Oferecemos educação financeira de forma prática e dinâmica, priorizando seu aprendizado de forma lúdica e enriquecedora.', link: '/formacao' },
     { Img: slide2, ImgName: 'slide2', label: 'Planejamento Financeiro Familiar', description: 'Construa um futuro financeiro sólido para sua família. Explore estratégias para economizar, investir e proteger o patrimônio familiar. Aprenda a lidar com despesas compartilhadas, planejar para educação dos filhos, e preparar-se para emergências financeiras.', link: '/futuro'},
-    { Img: slide3, ImgName: 'slide3', label: 'Planejamento Financeiro Empresarial', description: 'Transforme sua visão de negócio em realidade financeira. Desenvolva habilidades para administrar as finanças de sua empresa, desde o planejamento de capital inicial até a expansão e gestão de lucros. Domine conceitos-chave como fluxo de caixa, investimento e estratégias de crescimento sustentável.', link: 'https://example.com/slide3' },
+    { Img: slide3, ImgName: 'slide3', label: 'Planejamento Financeiro Empresarial', description: 'Transforme sua visão de negócio em realidade financeira. Desenvolva habilidades para administrar as finanças de sua empresa, desde o planejamento de capital inicial até a expansão e gestão de lucros. Domine conceitos-chave como fluxo de caixa, investimento e estratégias de crescimento sustentável.', link: '/futuro' },
   ];
 
   const settings = {
@@ -27,7 +27,7 @@ const Banner: React.FC = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     afterChange: (index: number) => setCurrentSlide(index),
   };
 
@@ -37,7 +37,7 @@ const Banner: React.FC = () => {
       <Slider ref={sliderRef} {...settings}>
         {productSlideImg.map((item, index) => (
           <div key={index} className="slider-content">
-            <Link to={item.link} target="_blank" rel="noopener noreferrer">
+            <Link to={item.link} rel="noopener noreferrer">
             <img
               className="slider-image"
               src={item.Img}

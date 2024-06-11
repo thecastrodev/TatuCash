@@ -11,7 +11,7 @@ const Future: React.FC = () => {
       <div className="label-icon">
         <span className="label">Funcionalidade em desenvolvimento</span>
         
-        <Link to={'/formacao'}><img src={icone} alt="Icon" className="icon" /></Link>
+        <Link to={'/'}><img src={icone} alt="Icon" className="icon" /></Link>
       </div>
     </div>
   );

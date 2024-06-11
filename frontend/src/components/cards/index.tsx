@@ -11,7 +11,7 @@ const DevsData = [
     { image: HaroldImage, link: 'https://www.linkedin.com/in/haroldcalixto', devName: 'Harold Calixto' },
     { image: JoanaImage, link: 'https://www.linkedin.com/in/joanasthefanny', devName: 'Joana Sthefanny' },
     { image: CastroImage, link: 'https://www.linkedin.com/in/thecastrodev', devName: 'Eduardo Castro' },
-    { image: ViniciusImage, link: '#', devName: 'Vinicius Tabosa' },
+    { image: ViniciusImage, link: 'https://www.linkedin.com/in/vinicius-tabosa-0162a7177', devName: 'Vinicius Tabosa' },
     { image: PauloImage, link: 'https://www.linkedin.com/in/pauloricardo8', devName: 'PauloRicardo' }
 ];
 
