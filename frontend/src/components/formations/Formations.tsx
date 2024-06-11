@@ -9,7 +9,6 @@ export const Formations = () => {
     return (
         <>
             <img src={banner} alt="" className='banner'/>
-            
 
             <section className='pageFormation'>
                 

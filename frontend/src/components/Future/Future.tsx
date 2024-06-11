@@ -2,6 +2,7 @@ import React from 'react';
 import './Future.css';
 import image from '../../assets/future.jpg'
 import icone from '../../assets/saiba_mais.svg'
+import { Link } from 'react-router-dom';
 
 const Future: React.FC = () => {
   return (
@@ -9,7 +10,8 @@ const Future: React.FC = () => {
       <img src={image} alt="Main" className="image" />
       <div className="label-icon">
         <span className="label">Funcionalidade em desenvolvimento</span>
-        <img src={icone} alt="Icon" className="icon" />
+        
+        <Link to={'/formacao'}><img src={icone} alt="Icon" className="icon" /></Link>
       </div>
     </div>
   );

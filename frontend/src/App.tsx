@@ -10,6 +10,8 @@ import { Level3 } from "./components/levels/level3/Level3"
 import { ContentLevel1 } from "./components/contentLevels/contentLevel1/ContentLevel1"
 import { ContentLevel2 } from "./components/contentLevels/contentLevel2/ContentLevel2"
 import { ContentLevel3 } from "./components/contentLevels/contentLevel3/ContentLevel3"
+import { Quiz } from "./components/quiz"
+import Future from "./components/Future/Future"
 
 
 const App = () => {
@@ -26,6 +28,8 @@ const App = () => {
                     <Route path="/conteudoNivel1" element={<ContentLevel1 />}/>
                     <Route path="/conteudoNivel2" element={<ContentLevel2 />}/>
                     <Route path="/conteudoNivel3" element={<ContentLevel3 />}/>
+                    <Route path="/quiz" element={<Quiz/>}/>
+                    <Route path="/futuro" element={<Future />}/>
                 </Routes>
             <Rodape />
         </>
