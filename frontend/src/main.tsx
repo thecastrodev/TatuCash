@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import About from "./components/about";
 import "./main.css";
-// import Header from "./components/Header/Header";
-// import Rodape from "./components/Footer/Rodape";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 

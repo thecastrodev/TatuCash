@@ -1,6 +1,6 @@
-import instagramIcon from "../../assets/home/instagram.svg"; // Importe a imagem do ícone do Facebook
-import youtubeIcon from "../../assets/home/youtube.svg"; // Importe a imagem do ícone do YouTube
-import facebookIcon from "../../assets/home/facebook.svg"; // Importe a imagem do ícone do Instagram
+import instagramIcon from "../../assets/home/instagram.svg"; 
+import youtubeIcon from "../../assets/home/youtube.svg"; 
+import facebookIcon from "../../assets/home/facebook.svg"; 
 import logo from "../../assets/Logo/Logo_Tatucash_.svg"
 import './Rodape.css'
 

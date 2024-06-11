@@ -20,14 +20,14 @@
   }
   
   .label {
-    font-size: 20px; /* Ajuste conforme necessário */
-    margin-block: 20px; /* Espaçamento entre o texto e o ícone */
+    font-size: 20px; 
+    margin-block: 20px; 
     color: var(--titulo1);
     line-height: 1.5em;
   }
   
   .icon {
-    width: 100%; /* Ajuste conforme necessário */
+    width: 100%; 
   }
   @media screen and (min-width:768px) {
     .image-label-icon-container{

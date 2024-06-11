@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Header.css';
 import logo from '../../assets/tatucoin.png';
 import { Link } from 'react-router-dom';
-import { Home } from '../../pages/Home';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

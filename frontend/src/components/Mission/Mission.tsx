@@ -3,6 +3,7 @@ import iconSaiba from '../../assets/home/saiba_mais.svg';
 import './Mission.css';
 import Level from "../Level/Level";
 import Contact from "../Contact/Contact"
+import { Link } from 'react-router-dom';
 
 const Mission: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Mission: React.FC = () => {
         <p className="mission-description">
         Facilitar o aprendizado em finanças pessoais e propagar a educação financeira para as pessoas de diferentes classes econômicas e sociais.
         </p>
-        <img src={iconSaiba} alt="Icon" className="icon-saiba" />
+        <Link to={'/sobre'}><img src={iconSaiba} alt="Icon" className="icon-saiba" /></Link>
       </div>
       <div className='container-level'>
         <h3 className ='level-title'>Descubra o seu potencial</h3>
