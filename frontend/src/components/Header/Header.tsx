@@ -24,19 +24,19 @@ const Header: React.FC = () => {
       <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
           <li>
-            <a href="#inicio">
+          
               <Link to={'/'}>Home</Link>
-            </a>
+            
           </li>
           <li>
-            <a href="#estudar">
+            
               <Link to={'/formacao'}>Estudar</Link>
-            </a>
+            
           </li>
           <li>
-            <a href="#jogar">
+            
               <Link to={'/sobre'}>Sobre nós</Link>
-            </a>
+            
           </li>
         </ul>
       </nav>
