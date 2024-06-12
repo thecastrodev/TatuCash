@@ -1,16 +1,12 @@
-# TatuCash
 <div align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjfTM5AGFbdwYN0615XVV8DzfeIFOo4j0rw&s" alt="LOGO" width="200"/>
-  <p>TatuCash</p>
+  <img src="frontend/src/assets/Readme_assets/Tatucash.png" alt="LOGO" width="100%"/>
+  <h1> TatuCash - A plataforma para aprender se divertindo</h1>
 </div>
 
-<div align="center">
-  <h2>💰 Soluções Financeiras LTDA 🦔</h2>
-</div>
 
 ## Descrição do Projeto ⚙
 
-Texto Texto Texto
+<p align="justify">Uma plataforma web que foca no aprendizado interativo do usuário, por meio de atividades com quiz e vídeos educativos, sobre educação financeira, tendo como ponto forte a identidade visual e design de nossos serviços, com foco em Pixel Art. O público-alvo da nossa empresa se concentra em pessoas com renda baixa e média, com pouco acesso a conteúdos sobre educação financeira e também para pessoas que precisam de uma linguagem mais simples e acessível, além de não compreenderem tanto de tecnologias.</p>
 
 <div align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjfTM5AGFbdwYN0615XVV8DzfeIFOo4j0rw&s" alt="LOGO" width="200"/>
