@@ -20,6 +20,10 @@
   <img src="frontend/src/assets/Readme_assets/VideoSite.gif" alt="gif site" width="100%"/>
 </p>
 
+## Site TatuCash 📝
+
+- Link: [🔗 Site TatuCash](https://tatu-cash.vercel.app)
+- 
 ## Documentações 📝
 
 - Link: [🔗 Documentação do Projeto](https://drive.google.com/file/d/12SSH6D-lhA6y12f0s8stW6L4A3DoM_0T/view?usp=sharing)
