@@ -22,11 +22,11 @@
 
 ## Documentações 📝
 
-- Link: [🔗 Documentação do Projeto](Link)
+- Link: [🔗 Documentação do Projeto](https://drive.google.com/file/d/12SSH6D-lhA6y12f0s8stW6L4A3DoM_0T/view?usp=sharing)
 
 ## Protótipo do Projeto 🎨
 
-- Link: [🔗 Protótipo no Figma](Link)
+- Link: [🔗 Protótipo no Figma](https://www.figma.com/design/2B7cQjfHLXJ7EPnK99joBW/Prot%C3%B3tipo?node-id=0-1&t=WQLXyPlKRDhkqQWk-1)
 
 ## Tecnologias e Ferramentas Utilizadas 🔧
 
