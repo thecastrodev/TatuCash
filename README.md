@@ -17,7 +17,7 @@
 <p align="justify"> Tatucash é uma plataforma web que foca no aprendizado interativo do usuário, por meio de atividades com quiz e vídeos educativos, sobre educação financeira, tendo como ponto forte a identidade visual e design de nossos serviços, com foco em Pixel Art. O público-alvo da nossa empresa se concentra em pessoas com renda baixa e média, com pouco acesso a conteúdos sobre educação financeira e também para pessoas que precisam de uma linguagem mais simples e acessível, além de não compreenderem tanto de tecnologias.</p>
 
 <p align="center">
-  <img src="frontend/src/assets/Readme_assets/VideoSite.gif" alt="gif site" width="60%"/>
+  <img src="frontend/src/assets/Readme_assets/VideoSite.gif" alt="gif site" width="100%"/>
 </p>
 
 ## Documentações 📝
@@ -44,6 +44,24 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
   <img width="12" />
 </div>
+
+Para criar um ambiente adequado de desenvolvimento em React, executamos os seguintes passos
+
+### Instalação do NodeJS
+
+- O React é construído com o Node.js, então você precisará instalá-lo primeiro. Vá para https://nodejs.org/ e baixe o instalador para o seu sistema operacional.
+- Siga as instruções do instalador para instalar o Node.js e o npm.
+- Verifique se o Node.js e o npm foram instalados corretamente executando os seguintes comandos no seu terminal:
+
+<blockquote>
+node -v
+
+npm -v
+</blockquote>
+
+### Editor de código
+
+Escolha um editor de código de sua preferência. Algumas opções populares incluem o Visual Studio Code, Sublime Text, Atom, entre outros. Você pode baixar e instalar o Visual Studio Code em https://code.visualstudio.com/.
 
 ## Executando o Projeto ⏳
 
