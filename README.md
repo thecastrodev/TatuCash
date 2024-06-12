@@ -53,11 +53,12 @@ Para criar um ambiente adequado de desenvolvimento em React, executamos os segui
 - Siga as instruções do instalador para instalar o Node.js e o npm.
 - Verifique se o Node.js e o npm foram instalados corretamente executando os seguintes comandos no seu terminal:
 
-<blockquote>
-node -v
 
+~~~
+node -v
 npm -v
-</blockquote>
+~~~
+
 
 ### Editor de código
 
