@@ -64,6 +64,24 @@ npm -v
 
 Escolha um editor de código de sua preferência. Algumas opções populares incluem o Visual Studio Code, Sublime Text, Atom, entre outros. Você pode baixar e instalar o Visual Studio Code em https://code.visualstudio.com/.
 
+### Criação do Projeto
+
+Utilizando o servidor de desenvolvimento Vite, utiliza-se o seguinte comando para criação do projeto na pasta de escolha
+
+~~~
+npm create vite@latest nome-do-projeto -- --template react
+~~~
+
+Agora, no projeto aberto, execute o seguinte comando para instalar todas as dependências do Vite para rodar o React
+
+~~~
+npm install
+~~~
+
+### Instalação das bibliotecas usadas no projeto
+
+
+
 ## Executando o Projeto ⏳
 
 Texto Texto Texto
