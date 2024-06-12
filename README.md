@@ -127,7 +127,10 @@ Por fim, copie e cole o link gerado no terminal no seu navegador
 
 <table align="center">
 <tr>
-  <td align="center"><a href=""><img src="foto" width="100px;" alt=""/><br /><sub><b>Nome</b></sub></a><br /><p title="Front-End">💻</p></td>
-  <td align="center"><a href=""><img src="foto" width="100px;" alt=""/><br /><sub><b>Nome</b></sub></a><br /><p title="Front-End">💻</p></td>
-  <td align="center"><a href=""><img src="foto" width="100px;" alt=""/><br /><sub><b>Nome</b></sub></a><br /><p title="Back-End">💻</p></td>
-  <td align="center"><a href=""><img src="foto" width="100px;" alt=""/><br /><sub><b>Nome</b></sub></a><br /><p title="Back-End">💻</p></td>
+  <td align="center"><a href="https://github.com/haroldcalixto"><img src="frontend/src/assets/equipe/Harold.svg" width="110%;" alt=""/><br /><sub><b>Harold Calixto</b></sub></a><br /><p title="Front-End">💻</p></td>
+  <td align="center"><a href="https://github.com/JoanaSthefanny"><img src="frontend/src/assets/equipe/Joana.svg" width="110%;" alt=""/><br /><sub><b>Joana Sthefanny</b></sub></a><br /><p title="Front-End">💻</p></td>
+  <td align="center"><a href="https://github.com/thecastrodev"><img src="frontend/src/assets/equipe/Castro.svg" width="110%;" alt=""/><br /><sub><b>Eduardo Castro</b></sub></a><br /><p title="Back-End">💻</p></td>
+  <td align="center"><a href="https://github.com/ViniciusTabosa"><img src="frontend/src/assets/equipe/Vinicius.svg" width="110%;" alt=""/><br /><sub><b>Vinícius Costa</b></sub></a><br /><p title="Back-End">💻</p></td>
+  <td align="center"><a href="https://github.com/prsousa8"><img src="frontend/src/assets/equipe/Paulo.svg" width="110%;" alt=""/><br /><sub><b>Paulo Ricardo</b></sub></a><br /><p title="Back-End">💻</p></td>
+</tr>
+</table>
