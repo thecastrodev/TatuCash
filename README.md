@@ -16,9 +16,9 @@
 
 <p align="justify"> Tatucash é uma plataforma web que foca no aprendizado interativo do usuário, por meio de atividades com quiz e vídeos educativos, sobre educação financeira, tendo como ponto forte a identidade visual e design de nossos serviços, com foco em Pixel Art. O público-alvo da nossa empresa se concentra em pessoas com renda baixa e média, com pouco acesso a conteúdos sobre educação financeira e também para pessoas que precisam de uma linguagem mais simples e acessível, além de não compreenderem tanto de tecnologias.</p>
 
-<video width="100%" autoplay>
-  <source src="frontend/src/assets/Readme_assets/VideoSite.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <img src="frontend/src/assets/Readme_assets/VideoSite.gif" alt="gif site" width="60%"/>
+</p>
 
 ## Documentações 📝
 
