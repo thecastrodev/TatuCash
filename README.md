@@ -80,11 +80,48 @@ npm install
 
 ### Instalação das bibliotecas usadas no projeto
 
+Bibliotecas para compor o Slider
 
+~~~
+npm install react-slick slick-carousel
+~~~
+
+Biblioteca para criar e gerenciar as rotas
+
+~~~
+npm install react-router-dom
+~~~
 
 ## Executando o Projeto ⏳
 
-Texto Texto Texto
+Para executar o projeto, realize as seguintes etapas:
+
+### Clone do repositório
+
+- Verifique se o git está instalado na sua máquina
+- Digite o comando via terminal
+
+~~~
+git clone https://github.com/thecastrodev/TatuCash.git
+~~~
+
+### Instalação das dependências
+
+Utilize o seguinte comando para instalar todas as dependências necessárias para o funcionamento da aplicação
+
+~~~
+npm install
+~~~
+
+### Execução
+
+Em seguida, digite o comando para executá-lo
+
+~~~
+npm run dev
+~~~
+
+Por fim, copie e cole o link gerado no terminal no seu navegador
 
 ## Time 7 - Mandacarú.Dev 🌵
 
