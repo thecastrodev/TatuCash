@@ -6,12 +6,19 @@
 
 ## Descrição do Projeto ⚙
 
-<p align="justify">Uma plataforma web que foca no aprendizado interativo do usuário, por meio de atividades com quiz e vídeos educativos, sobre educação financeira, tendo como ponto forte a identidade visual e design de nossos serviços, com foco em Pixel Art. O público-alvo da nossa empresa se concentra em pessoas com renda baixa e média, com pouco acesso a conteúdos sobre educação financeira e também para pessoas que precisam de uma linguagem mais simples e acessível, além de não compreenderem tanto de tecnologias.</p>
+<p align="justify">A administração da saúde financeira é um desafio enfrentado por muitos, especialmente entre as classes médias e baixas, onde a educação financeira é frequentemente insuficiente. A falta de conhecimento sobre como gerenciar as finanças pessoais pode levar a consequências graves, como endividamento crônico, falta de poupança e dificuldades para investir de maneira segura. Em uma sociedade cada vez mais complexa e interconectada, essas questões são exacerbadas pela crescente facilidade de acesso ao crédito e ao consumo desenfreado, sem o devido conhecimento sobre gestão financeira. É nesse contexto que a plataforma Tatucash, desenvolvida pela Tatucash Soluções Financeiras LTDA, se destaca como uma iniciativa crucial para difundir a educação financeira e promover a segurança econômica.</p>
 
 <div align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjfTM5AGFbdwYN0615XVV8DzfeIFOo4j0rw&s" alt="LOGO" width="200"/>
+  <img src="frontend/src/assets/Readme_assets/Logo_Tatucash_.svg" alt="LOGO" width="200"/>
   <p>TatuCash</p>
 </div>
+
+
+<p align="justify"> Tatucash é uma plataforma web que foca no aprendizado interativo do usuário, por meio de atividades com quiz e vídeos educativos, sobre educação financeira, tendo como ponto forte a identidade visual e design de nossos serviços, com foco em Pixel Art. O público-alvo da nossa empresa se concentra em pessoas com renda baixa e média, com pouco acesso a conteúdos sobre educação financeira e também para pessoas que precisam de uma linguagem mais simples e acessível, além de não compreenderem tanto de tecnologias.</p>
+
+<video width="100%" autoplay>
+  <source src="frontend/src/assets/Readme_assets/VideoSite.mp4" type="video/mp4">
+</video>
 
 ## Documentações 📝
 
