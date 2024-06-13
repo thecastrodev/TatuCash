@@ -26,7 +26,7 @@
 
 ## Documentações 📝
 <p align="justify"> Neste link você irá conferir toda a documentação o projeto TatuCash!</p>
-- Link: [🔗 Documentação do Projeto](https://drive.google.com/file/d/12SSH6D-lhA6y12f0s8stW6L4A3DoM_0T/view?usp=sharing)
+- Link: [🔗 Documentação do Projeto](https://drive.google.com/file/d/19pDatol1FKCZDTCqLD2VubInKE8_mJw_/view?usp=sharing)
 
 ## Protótipo do Projeto 🎨
 <p align="justify"> Neste link você irá visualizar o protótipo de alta fidelidade do projeto TatuCash!</p>
