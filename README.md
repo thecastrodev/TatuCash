@@ -1,16 +1,16 @@
 <div align="center">
   <img src="frontend/src/assets/Readme_assets/Tatucash.png" alt="LOGO" width="100%"/>
-  <h1> TatuCash - A plataforma para aprender se divertindo</h1>
+  <h1> TatuCash - A plataforma para aprender se divertindo 🦔</h1>
 </div>
 
 
 ## Descrição do Projeto ⚙
 
-<p align="justify">A administração da saúde financeira é um desafio enfrentado por muitos, especialmente entre as classes médias e baixas, onde a educação financeira é frequentemente insuficiente. A falta de conhecimento sobre como gerenciar as finanças pessoais pode levar a consequências graves, como endividamento crônico, falta de poupança e dificuldades para investir de maneira segura. Em uma sociedade cada vez mais complexa e interconectada, essas questões são exacerbadas pela crescente facilidade de acesso ao crédito e ao consumo desenfreado, sem o devido conhecimento sobre gestão financeira. É nesse contexto que a plataforma Tatucash, desenvolvida pela Tatucash Soluções Financeiras LTDA, se destaca como uma iniciativa crucial para difundir a educação financeira e promover a segurança econômica.</p>
+<p align="justify">A administração da saúde financeira é um desafio enfrentado por muitos, especialmente entre as classes médias e baixas, onde a educação financeira é frequentemente insuficiente. A falta de conhecimento sobre como gerenciar as finanças pessoais pode levar a consequências graves, como endividamento crônico, falta de poupança e dificuldades para investir de maneira segura. Em uma sociedade cada vez mais complexa e interconectada, essas questões são exacerbadas pela crescente facilidade de acesso ao crédito e ao consumo desenfreado, sem o devido conhecimento sobre gestão financeira. É nesse contexto que a plataforma TatuCash, desenvolvida pela Tatucash Soluções Financeiras LTDA, se destaca como uma iniciativa crucial para difundir a educação financeira e promover a segurança econômica.</p>
 
 <div align="center">
   <img src="frontend/src/assets/Readme_assets/Logo_Tatucash_.svg" alt="LOGO" width="200"/>
-  <p>TatuCash</p>
+  <h2>TatuCash</h2>
 </div>
 
 
@@ -20,32 +20,34 @@
   <img src="frontend/src/assets/Readme_assets/VideoSite.gif" alt="gif site" width="100%"/>
 </p>
 
-## Site TatuCash 📝
-
+## Site TatuCash 🚀
+<p align="justify"> Neste link você irá acessar e interagir com a plataforma web do projeto TatuCash!</p>
 - Link: [🔗 Site TatuCash](https://tatu-cash.vercel.app)
 
 ## Documentações 📝
-
+<p align="justify"> Neste link você irá conferir toda a documentação o projeto TatuCash!</p>
 - Link: [🔗 Documentação do Projeto](https://drive.google.com/file/d/12SSH6D-lhA6y12f0s8stW6L4A3DoM_0T/view?usp=sharing)
 
 ## Protótipo do Projeto 🎨
-
+<p align="justify"> Neste link você irá visualizar o protótipo de alta fidelidade do projeto TatuCash!</p>
 - Link: [🔗 Protótipo no Figma](https://www.figma.com/design/2B7cQjfHLXJ7EPnK99joBW/Prot%C3%B3tipo?node-id=0-1&t=WQLXyPlKRDhkqQWk-1)
 
 ## Tecnologias e Ferramentas Utilizadas 🔧
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" height="30" alt="vite logo"  />
   <img width="12" />
 </div>
 
@@ -127,14 +129,14 @@ npm run dev
 
 Por fim, copie e cole o link gerado no terminal no seu navegador
 
-## Time 7 - Mandacarú.Dev 🌵
+## Time 7 (Módulo Juazeiro do Norte) - Mandacaru.Dev 🌵
 
 <table align="center">
 <tr>
-  <td align="center"><a href="https://github.com/haroldcalixto"><img src="frontend/src/assets/equipe/Harold.svg" width="110%;" alt=""/><br /><sub><b>Harold Calixto</b></sub></a><br /><p title="Front-End">💻</p></td>
-  <td align="center"><a href="https://github.com/JoanaSthefanny"><img src="frontend/src/assets/equipe/Joana.svg" width="110%;" alt=""/><br /><sub><b>Joana Sthefanny</b></sub></a><br /><p title="Front-End">💻</p></td>
-  <td align="center"><a href="https://github.com/thecastrodev"><img src="frontend/src/assets/equipe/Castro.svg" width="110%;" alt=""/><br /><sub><b>Eduardo Castro</b></sub></a><br /><p title="Back-End">💻</p></td>
-  <td align="center"><a href="https://github.com/ViniciusTabosa"><img src="frontend/src/assets/equipe/Vinicius.svg" width="110%;" alt=""/><br /><sub><b>Vinícius Costa</b></sub></a><br /><p title="Back-End">💻</p></td>
-  <td align="center"><a href="https://github.com/prsousa8"><img src="frontend/src/assets/equipe/Paulo.svg" width="110%;" alt=""/><br /><sub><b>Paulo Ricardo</b></sub></a><br /><p title="Back-End">💻</p></td>
+  <td align="center"><a href="https://github.com/haroldcalixto"><img src="frontend/src/assets/equipe/Harold.svg" width="110%;" alt=""/><br /><sub><b>Harold Calixto</b></sub></a><br/><p title="Product Owner">👨‍💻</p></td>
+  <td align="center"><a href="https://github.com/JoanaSthefanny"><img src="frontend/src/assets/equipe/Joana.svg" width="110%;" alt=""/><br /><sub><b>Joana Sthefanny</b></sub></a><br/><p title="Scrum Master">👩‍💻</p></td>
+  <td align="center"><a href="https://github.com/thecastrodev"><img src="frontend/src/assets/equipe/Castro.svg" width="110%;" alt=""/><br /><sub><b>Eduardo Castro</b></sub></a><br/><p title="Desenvolvedor">👨‍💻</p></td>
+  <td align="center"><a href="https://github.com/ViniciusTabosa"><img src="frontend/src/assets/equipe/Vinicius.svg" width="110%;" alt=""/><br /><sub><b>Vinícius Costa</b></sub></a><br/><p title="Desenvolvedor">👨‍💻</p></td>
+  <td align="center"><a href="https://github.com/prsousa8"><img src="frontend/src/assets/equipe/Paulo.svg" width="110%;" alt=""/><br /><sub><b>Paulo Ricardo</b></sub></a><br/><p title="Desenvolvedor">👨‍💻</p></td>
 </tr>
 </table>
